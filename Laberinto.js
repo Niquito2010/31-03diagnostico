@@ -5,7 +5,7 @@ let img;
 
 function setup() {
   img = loadImage("./Pagina-2.png");
-  let my_canvas = createCanvas(1920/2, 1080/2)
+  let my_canvas = createCanvas(1920, 1080)
     .position(25, 30)
     .style("z-index", -1);
  
