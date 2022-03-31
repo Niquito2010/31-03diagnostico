@@ -12,7 +12,7 @@ function preload() {
 }
 // setup() runs after preload, once()
 function setup() {
-  createCanvas(1920/2, 1080/2)
+  createCanvas(1920, 1080)
     .position(25, 30)
     .style("z-index", -1);
  
